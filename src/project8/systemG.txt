@@ -1,0 +1,8 @@
+base A
+rule A FFFFFFFFF[B]A
+rule B FFFFFF[-D]C
+rule C FFFFFF[+D]B
+rule D FFFFF[+J]E
+rule E FFFFF[-J]D
+rule J FFF[-K]K
+rule K FFF[+J]J
